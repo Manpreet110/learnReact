@@ -1,0 +1,39 @@
+QUES: What is Emmet?
+ANS:It is a set of plug-in for the text or can say a code editor. essential toolkit for web developers.
+
+QUES: Difference between framework and liabrary?
+ANS:Framework used for building and deploying an application quickly. Framework is the environment on which liabrary depends.
+    liabrary is used to enhance the functionality of an application.
+
+QUES: What is CDN? Why do we use it? 
+ANS:Content Delivery Network is a geographically distributed group of server that caches content close to end users.
+
+QUES: Why is React known as React?
+ANS: Because it reacts. It was developed by Fecebook (a site that constantly updates their data) to improve the user interface development .
+     And  more effectively change what is the user sees when they are doing things like mouse clicking, submitting and typing.
+
+QUES: What is the crossorigin in script tag?
+ANS:It is attributes sets the request to an HTTP CORS request. Webpage often makes requests to load resources on other servers.
+    It is an HTTP header based mechanism that allows a server to indicate any origin (domain,scheme or port) other than it own from which a
+    browser should permit loading resources.
+
+QUES: Difference between React and ReactDOM.
+ANS:> The react package holds the react source for components , state , props and all the code that is react.
+    > The react package as the name implies is the glue between React and the DOM. Often, you will only use it one single thing:mounting our 
+      application to the index html file with ReactDom.render().
+    > They separate because of the arrival od react Native (platform for mobile development) 
+    > ReactDOM is used only in web apps.
+
+QUES: Difference between normal Html parsing vs Async vs differ.
+ANS: NORMAL PARSING OF HTML: First the html parses and then the script fetch from the resource then execute the scriptand then again start the 
+                             parsing.     
+     WITH ASYNC ATTRIBUTE  : First the html parces and in parallel the script is also fetches and after the whole fetching process html waits for the 
+                             till the execution of the script and after the execution it again start the html parsing .
+     WITH DIFFER ATTRIBUTE : First the html parces and then in parallelthe script fetches and after the complition af all the html code the script 
+                             is benn executed so the best way to use id s the differ attributes and we do not have to wait for the fetching and    
+                             the execution process pf the script.
+
+QUES: Difference between React development JS and the React production JS.
+ANS:  > The production version is been optimized in a few way- smaller in file size by minimizing variables names and removing the white spaces etc.  
+      > Whereas the development version will  remain readable ,might include source and maps etc.making it better for the debugging and development process.
+      > In functionality they both are the same.                                                     
